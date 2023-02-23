@@ -1,10 +1,21 @@
 import React from "react";
+import Navbar from "./components/Navbar";
+import Feed from "./components/Feed";
+import Sidebar from "./components/Sidebar";
+import Rightbar from "./components/Rightbar";
+
+import {Box} from "@material-ui/core";
+
 
 const App = () =>  {
 
 return(
 <>
-<h1> React App</h1>
+<Box >
+    
+<Sidebar/>
+<Feed/>
+<Rightbar/>
 
 
 
@@ -12,6 +23,7 @@ return(
 
 
 
+</Box>
 
 </>
 );
